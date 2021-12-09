@@ -72,4 +72,7 @@ curl -k --data '{"operations":"add","arguments":[1,2]}' --header "Content-Type: 
   "Result": 3
 }                                                                                                                               
 ```
-Any bad url sent or requested, appropriated error message will be shown. Division by zero has been also taken care of. 
+Here is the wireshark capture of loopback interface. You can see from the capture that appropriate ciphers have been negotiated between the client and the server. Also, the protocol being used is TLS1.3 and hence all the application data has been sent encrypted. 
+![image](https://user-images.githubusercontent.com/77736184/145451168-e186ad8a-98af-4463-beef-3f0f285e5b6d.png)
+
+### Any bad url sent or requested, appropriated error message will be shown. Division by zero has been also taken care of. 
