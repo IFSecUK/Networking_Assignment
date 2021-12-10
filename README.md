@@ -1,7 +1,7 @@
 # Networking_Assignment
 Assignment Solution<br>
-Download the repo or all the files and keep them inside the same folder.
-<br>
+Download the repo or all the files and keep them inside the same folder.<br>
+Note: If using curl, add -v flag for verbosity and to see headers information.<br>
 ## HTTP Server
 This server will be running on port 8000 (Value is hardcoded in the code). Next, simply run
 ```Bash
